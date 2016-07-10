@@ -1,0 +1,150 @@
+/*ФОТОГАЛЕРЕЯ*/
+.for-gallery{
+	color: #e6e5e5;
+	border-top: 1px solid;
+	width: 98%;
+	margin-left: 1%!important;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.gal-title {
+	font-size: 36px;
+	font-family: "GothamProRegular";
+	color: rgb(84, 91, 84);
+	line-height: 0.583;
+	text-align: center;
+}
+
+.gallery {
+	width: 100%;
+	margin-top:60px;
+	margin-bottom:60px; 
+}
+
+.gal-row {
+	overflow: hidden;
+	width: 100%;
+	margin-bottom:1.5%;
+}
+
+.gal-item {
+	margin-right: 1%;
+	float: left;
+	position: relative;
+	height: 200px;
+	width: 31.666%;
+}
+
+.gal-item-last{
+	float: left;
+	position: relative;
+	height: 200px;
+	width: 31.666%;
+}
+
+.gal-item img,.gal-item-last img {
+	width: 100%;
+	height: 100%
+}
+
+a.gal-el {
+	width: 92%;
+	height: 170px;
+	position: absolute;
+	display: none;
+	top: 7%;
+	left: 4%;
+	text-decoration: none;
+}
+
+
+a.gal-el:hover{
+	text-decoration: none;
+}
+
+.gspan {
+	width: 70%;
+	height: 20%;
+	font-size: 14px;
+	font-family: "GothamProLight";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 0.643;
+	-moz-transform: matrix( 1.04684095860566,0,0,1.04694835680751,0,0);
+	-webkit-transform: matrix( 1.04684095860566,0,0,1.04694835680751,0,0);
+	-ms-transform: matrix( 1.04684095860566,0,0,1.04694835680751,0,0);
+	position: absolute;
+	line-height: 1.5;
+	top:68%;
+	left:11%;
+}
+	.gal-item:hover .gal-el {
+		display: block;
+	}
+
+	.gal-item-last:hover .gal-el{
+		display: block;
+	}
+
+/*окно галереи*/
+
+#window-gal	{
+	width: 915px;
+}
+
+#window-gal p {
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 14px;
+	font-family: "GothamProRegular";
+	color: rgb(107, 115, 119);
+	line-height: 1.5;
+}
+
+.minfull {
+	margin-left: 28%;
+}
+
+	.minfull a {
+		display: inline-block;
+		margin-right: 3%;
+	}	
+
+	.minfull a:hover {
+		text-decoration: none;
+	}
+
+	.minfull a:focus {
+		border: 4px solid rgb(49, 148, 60);
+		border-radius: 5px; 
+	}
+
+	.min-active {
+		border: 4px solid rgb(49, 148, 60);
+		border-radius: 5px; 
+	}
+
+.w-gal {
+	border-top: 1px solid;
+	color: rgb(49, 148, 60);
+}
+
+.full_img img{
+	width: 100%;
+	height: 595px;
+}
+
+.win-close {
+  font-size: 11px!important;
+  font-family: "GothamProLight"!important;
+  color: rgb(92, 101, 106)!important;
+  text-transform: uppercase!important;
+  line-height: 2.545!important;
+  text-align: right!important;
+  margin-right: 0%!important;
+  margin-bottom: 2%!important;
+  cursor: pointer;
+}

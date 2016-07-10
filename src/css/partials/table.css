@@ -1,0 +1,43 @@
+/*ТАБЛИЦА*/
+.table-elements {
+	margin-bottom: 0px;
+}
+
+.table-h2{
+	font-size: 20px;
+	font-family: "GothamProRegular";
+	color: rgb(70, 70, 70);
+	line-height: 1.5;
+	text-align: left;
+}
+
+.table th {
+	height: 61px;
+	font-size: 14px;
+	font-family: "GothamProBold";
+	color: rgb(21, 22, 21);
+	line-height: 2.857;
+	padding-top: 20px!important;
+	padding-left:3%!important;
+}
+
+.table td {
+	font-size: 14px;
+	font-family: "GothamProRegular";
+	color: rgb(51, 50, 50);
+	line-height: 1.2;
+	text-align: left;
+	padding-top:1%!important;
+	padding-bottom:1%!important; 
+	padding-left: 3%!important;
+}
+
+.t-head {
+	background-color: rgb(230, 229, 229)!important;
+}
+
+.for-table {
+	color: #e6e5e5;
+	border: 2px solid;
+	margin-top: 0%;
+}

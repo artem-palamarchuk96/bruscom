@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	font-family: "GothamProRegular";
+}
+
+.fluid-container {
+	min-width: 1023px;
+}
+
+.container {
+	min-width: 975px;
+}
+
+.rubl {
+	font-family: 'rouble' !important;
+	text-transform: none;
+}
+
+.none{
+	display: none;
+}

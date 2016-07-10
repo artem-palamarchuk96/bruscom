@@ -1,0 +1,166 @@
+/*МЕНЮ ПРОКРУТКИ*/
+.fix {
+	z-index: 99;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	min-width: 975px;
+}
+
+/*Номера и кнопка*/
+.fix-numb {
+	margin-top: 25px;
+}
+
+.fix-button-green {
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background-color: rgb(49, 148, 60);
+	width: 148px;
+	height: 32px;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	line-height: 1.071;
+	text-align: center;
+	margin-top: 15px;
+	margin-left:3%;
+	margin-right: 10%;
+}
+
+.fix-button-green:hover {
+	background-color: #5d5d5d;
+}
+
+.fix-green-part-tel-number {
+	font-size: 20px;
+	color: rgb(53, 150, 64);
+	text-transform: uppercase;
+	line-height: 0.8;
+	text-align: center;
+	margin-left: 6%;
+}
+
+.fix-tel-number {
+	font-size: 32px;
+	color: #474747;
+}
+
+.fix-address-link {
+	font-size: 15px;
+	color: rgb(53, 150, 64);
+	line-height: 1.067;
+	text-align: center;
+}
+
+.fix-link {
+	width: 155px;
+	height: 25px;
+	margin-top: -25px;
+	margin-left: 76%;
+}
+
+.fix-head {
+	background: white;
+	padding-left:2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 1%;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fix-rec {
+	cursor: pointer;
+	text-align: center;
+	margin-top: -50px;
+	width: 55px;
+	height: 55px;
+	float: right;
+	background: green;
+}
+
+.fix-rec img {
+	margin-top: 13.5px;
+}
+
+/*горизонтальный список*/
+.fixm {
+	margin-top: 10px;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+
+.fix-menu {
+	display: table;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	width: 100%;
+	height: 50px; 
+	padding-top: 6px;
+	padding-left: 1%;
+}
+
+
+.fix-menu > li {
+	display: table-cell;
+	float: none;
+}
+
+.fix-menu > li > a {
+	display: block;
+	padding: 11px 15px;
+	font-family: "GothamProMedium";
+	font-size: 15px;
+	color: rgb(58, 58, 58);
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.067;
+	position: relative;
+	width: 95%;
+}
+.fix-menu> li > a:hover{
+	background-color: rgb(15, 151, 56);
+}
+
+.fix-menu> li > a:hover span {
+	
+	color: #fff; 
+	border-bottom: 1px solid #fff; 
+
+}
+
+/*вертикальный список*/
+.fix-v-m {
+	position: absolute;
+	z-index: 5;
+	margin-top:-60px; 
+	margin-left:73.8% 
+}
+.fix-v-menu {
+	background-color: rgb(255, 255, 255);
+	padding-top: 2%;
+	padding-left: 4%;
+	width: 190px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fix-v {
+	list-style: url(../images/ellipse.png);
+}
+.fix-v hr {
+	width: 125%;
+	margin-top: 0px!important;
+	margin-bottom: 0px!important;
+	margin-left: -25%!important; 
+}
+
+.fix-v > li > a {
+	display: block;
+	width: 100%;
+	padding-left: 5px;
+	font-size: 15px;
+	font-family: "GothamProMedium";
+	line-height: 2.4;
+	text-align: left;
+	color: rgb(58, 58, 58);
+}

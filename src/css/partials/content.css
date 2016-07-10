@@ -1,0 +1,163 @@
+/*КОНТЕНТ*/
+.faq-title {
+  font-size: 24px;
+  font-family: "GothamProBold";
+  color: rgb(21, 22, 21);
+  line-height: 0.625;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.abzac1 {
+	margin-bottom: 4%;
+}
+.abzac1	h1{
+	margin-bottom: 40px;
+	font-family: 'GothamProMedium';
+	font-size: 24px;
+	color: rgb(21, 22, 21);
+	line-height: 0.625;
+}
+
+.abzac1 p {
+  font-size: 14px;
+  font-family: "GothamProRegular";
+  color: rgb(47, 46, 46);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.abzac2 {
+	margin-bottom: 4%;
+}
+
+.abzac2	h1 {
+	font-size: 24px;
+	color: rgb(21, 22, 21);
+	line-height: 0.625;
+}
+
+.abzac2 h2 {
+  font-size: 21px;
+  color: rgb(65, 65, 65);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.abzac2 p {
+  font-size: 14px;
+  font-family: "GothamProRegular";
+  color: rgb(47, 46, 46);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.abzac3 {
+	margin-bottom: 4%;
+}
+
+.abzac3 h2 {
+  font-size: 21px;
+  color: rgb(65, 65, 65);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.abzac3 p {
+  font-size: 14px;
+  font-family: "GothamProRegular";
+  color: rgb(47, 46, 46);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.abzac4 {
+	margin-bottom: 4%;
+}
+
+.abzac4 h2 {
+  font-size: 21px;
+  color: rgb(65, 65, 65);
+  line-height: 1.2;
+}
+
+.abzac4 h3 {
+  font-size: 18px;
+  color: rgb(65, 65, 65);
+  line-height: 1.111;
+  margin-bottom: 20px;
+}
+
+.abzac4 p {
+  font-size: 14px;
+  font-family: "GothamProRegular";
+  color: rgb(47, 46, 46);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.abzac5 {
+	margin-bottom: 4%;
+}
+
+.abzac5 h3 {
+	font-size: 18px;
+	color: rgb(65, 65, 65);
+	line-height: 1.111;
+}
+
+.abzac5 p {
+  font-size: 14px;
+  font-family: "GothamProRegular";
+  color: rgb(47, 46, 46);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.abzac6 {
+	margin-bottom: 2%;
+}
+
+.abzac6 h2 {
+  font-size: 21px;
+  color: rgb(65, 65, 65);
+  line-height: 1.2;
+}
+
+.abzac6 p {
+  font-size: 14px;
+  font-family: "GothamProRegular";
+  color: rgb(47, 46, 46);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.abzac6 ul {
+	font-size: 14px;
+	font-family: "GothamProRegular";
+	color: rgb(47, 46, 46);
+	line-height: 1.5;
+	text-align: justify;
+	margin-left: 2%;
+	margin-bottom: 2%
+}
+
+.abzac6 ul>li {
+	margin-bottom:1%; 
+	list-style: url(../images/ellipse3.png);
+}
+
+ul.vnutr >li{
+	margin-top:2%; 
+	list-style: url(../images/ellipse2.png);
+}
+
+.abzac6 ol {
+	font-size: 14px;
+	font-family: "GothamProRegular";
+	color: rgb(47, 46, 46);
+	line-height: 1.5;
+	text-align: justify;
+	margin-top: 2%; 
+	margin-left: 2%;
+}

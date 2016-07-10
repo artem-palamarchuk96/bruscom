@@ -1,0 +1,209 @@
+/* HEADER */
+.header {
+	margin-top: 40px;
+}
+
+/* ЛОГОТИП И ТЕКСТ */
+img.logo {
+	float: left;
+	margin-top: 10px;
+}
+
+.header-text {
+	font-size: 40px;
+	color: rgb(64, 64, 65);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 0.7;
+	vertical-align: middle;
+	margin: 25px 0 0 100px;
+}
+
+.subline-header-text {
+	font-size: 14px;
+	font-family: "Verdana";
+	color: rgb(64, 64, 65);
+	line-height: 2;
+	display: block;
+	margin: 2px 0 0 100px;
+
+}
+
+/* Зеленая КНПОКА + НАДПИСЬ */
+.button-green {
+	border: 0;
+	border-radius: 3px;
+	background-color: rgb(49, 148, 60);
+	width: 148px;
+	height: 32px;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	line-height: 1.071;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 12%;
+	outline: none;
+	text-decoration: underline;
+}
+
+.gg {
+	color: #cecece;
+}
+
+.button-green:hover {
+	background: #5d5d5d;
+}
+
+.green-part-tel-number {
+	font-size: 20px;
+	color: rgb(53, 150, 64);
+	text-transform: uppercase;
+	line-height: 0.8;
+	text-align: center;
+	margin-left: 12%;
+}
+
+.tel-number {
+	font-size: 32px;
+	color: #474747;
+}
+
+.header-text-wrap {
+	float: right;
+}
+
+.address {
+	font-size: 15px;
+	color: rgb(25, 27, 25);
+	line-height: 1.067;
+	margin-top: 10px;
+}
+
+.address-link {
+	font-size: 15px;
+	color: rgb(53, 150, 64);
+}
+
+.address-link:hover {
+	color: rgb(53, 150, 64);
+}
+
+.working-schedule {
+	font-size: 11px;
+	color: rgb(58, 58, 58);
+	line-height: 1.455;
+}
+
+.bold {
+	font-family: "GothamProBold";
+}
+
+hr.header-divider {
+	color: #e6e5e5;
+	border-top: 1px solid;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+/* ГОРИЗОНТАЛЬНОЕ МЕНЮ */
+.navigation {
+	background-color: #fff;
+	height: 50px;
+	text-align: justify;
+}
+
+#navigation {
+	display: table;
+	width: 100%;
+}
+
+#navigation > li {
+	display: table-cell;
+	float: none;
+}
+
+#navigation > li:hover {
+	background-color: rgb(49, 148, 60);;
+}
+
+#navigation > li:first-child > a {
+	padding: 11px 10px;
+}
+
+#navigation > li:last-child > a {
+	padding: 11px 8px;
+}
+
+#navigation > li > a {
+	display: block;
+	padding: 11px 60px;
+	font-family: "GothamProMedium";
+	font-size: 15px;
+	color: rgb(58, 58, 58);
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.067;
+	position: relative;
+}
+
+#navigation > li > a:hover span {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+/*ЗАКЛАДКИ*/
+.bcrumb {
+	margin-top: 1%;
+	padding-left: 1%;
+}
+
+	.bcrumb img {
+		margin-right:1%; 
+	}
+
+.br {
+	color: #e6e5e5;
+	border-top: 1px solid;
+	margin: 0%;
+	width: 100%;
+}
+
+.bred {
+	display:inline-block;
+	margin-right:2px; 
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(15, 151, 56);
+	text-decoration: underline;
+	line-height: 1.25;
+	text-align: left;
+}
+
+	a.bred:hover{
+		color: rgb(15, 151, 56);
+		text-decoration: none;
+	}
+
+.active-bred {
+	font-size: 12px;
+	font-family: 'GothamProBold';
+	color:black;
+}
+
+	a.active-bred:hover{
+		text-decoration: underline;
+		color: black;
+	}
+
+.raz {
+	margin-right: 2px;
+	font-size: 12px;
+	font-family: "Arial";
+	
+}
+
+.after-br {
+	color: #e6e5e5;
+	border-top: 1px solid;
+	margin-top: 1%;
+}

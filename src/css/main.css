@@ -2,4 +2,22 @@
 @import (less) url(../../bower_components/fancybox/source/jquery.fancybox.css);
 @import (less) url(../../bower_components/nouislider/distribute/nouislider.min.css);
 
+@import (less) url(partials/fonts.css);
+@import (less) url(partials/general.css);
+
+@import (less) url(partials/header.css);
+@import (less) url(partials/main-top-slider.css);
+@import (less) url(partials/fixed-top-nav.css);
+@import (less) url(partials/content.css);
+@import (less) url(partials/table.css);
+@import (less) url(partials/photogallery.css);
+
+
+
+@import (less) url(partials/footer.css);
+
+
+@import (less) url(partials/callback.css);
+
+@import (less) url(partials/style.css);
 @import (less) url(partials/style-2.css);

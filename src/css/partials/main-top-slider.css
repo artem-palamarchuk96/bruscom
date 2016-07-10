@@ -1,0 +1,85 @@
+/* top-slider*/
+.top-slider {
+	background: url(../images/slider-back.png) center center no-repeat;
+}
+
+.carousel-control {
+	top: 58% !important;
+}
+
+.carousel-control.left {
+	left: 52% !important;
+	background-image: none;
+}
+
+.carousel-control.right {
+	right: 28% !important;
+	background-image: none;
+}
+
+.arrow-right {
+	position: absolute;
+	top: 115px;
+	left: 0;
+}
+
+.arrow-left {
+	position: absolute;
+	top: 115px;
+	left: 0;
+}
+
+.carousel-inner>.item>img {
+	height: 100% !important;
+	margin: 0 auto;
+}
+
+.carousel-indicators1 {
+	left: 83% !important;
+	bottom: 1% !important;
+	width: 100px;
+	margin-left: 0 !important;
+}
+
+.carousel-indicators1 .active {
+	background-color: #fff !important;
+	width: 18px !important;
+	height: 18px !important;
+}
+
+.carousel-indicators1 li {
+	width: 18px !important;
+	height: 18px !important;
+	border: 2px solid #fff !important;
+	background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.carousel-caption1 {
+	top: 35%;
+	left: 52%;
+	width: 100%;
+}
+
+.carousel-caption span {
+	text-transform: lowercase;
+}
+
+p.slider-green-text {
+	font-size: 24px;
+	font-family: "GothamProBold";
+	color: rgb(79, 184, 91);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.458;
+	text-align: left;
+}
+
+p.slider-white-text {
+	font-size: 36px;
+	font-family: "GothamProBold";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.306;
+	text-align: left;
+}

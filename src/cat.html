@@ -7,8 +7,1339 @@
 <body>
 	//= templates/_Header.html
 	
-	//= templates/_Footer.html
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script src="js/common.js"></script>
-</body>
-</html>
+	<!-- ОСНОВНОЕ МЕНЮ -->
+	<div class="fluid-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 cat">
+					<ul class="nav nav-tabs cat-nav">
+						<li class="active">
+							<a href="#brus" data-toggle="tab"><span>Дома из бруса</span></a>	
+						</li>
+						<li>
+							<a href="#brevna" data-toggle="tab"><span>Дома из бревна</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- галерея и выборка -->
+			<div class="row">
+				<div class="col-xs-3 left-col">
+					<div class="left-title">
+						Категория дома
+					</div>
+					<hr class="after-left-title"/>
+
+					<div class="tech">
+						<p>Технология</p>
+						<label class="left-check">
+							<input type="checkbox" checked="checked" value="" name=""><span></span>
+						</label>
+						<span class="tech-popular">Популярные проекты</span>
+
+						<label class="left-check">
+							<input type="checkbox" checked="checked" value="" name=""><span></span>
+						</label>
+						<span class="tech-popular2">Акции проекты</span>
+
+						<label class="left-check">
+							<input type="checkbox" checked="checked" value="" name=""><span></span>
+						</label>
+						<span class="tech-popular3">Уникальные проекты</span>
+					</div>
+
+					<div class="plosh">
+						<p>Площадь</p>
+
+						<div class="plosch-put">
+							От<input id="st1"/>м<sup>2</sup> до <input id="st2"/>м<sup>2</sup>
+						</div>
+
+						<div id="st3" class="pips-range"></div>
+					</div>
+
+					<div class="kolvo">
+						<p>Количество этажей</p>
+
+						<div class="btn-group cat-size">
+							<button type="button" class="btn btn-default dropdown-toggle cat-drop-btn" data-toggle="dropdown">Один этаж<span class="caret cat-caret"></span></button>
+							<ul class="dropdown-menu cat-drop" role="menu">
+								<li><a href="#">Один этаж</a></li>
+								<li><a href="#">Два этажа</a></li>
+								<li><a href="#">Три этажа</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="dop">
+						<p>Дополнительно</p>
+						<label class="left-check">
+							<input type="checkbox" checked="checked" value="" name=""><span></span>
+						</label>
+						<span class="tech-popular">Балкон</span>
+
+						<label class="left-check">
+							<input type="checkbox" checked="checked" value="" name=""><span></span>
+						</label>
+						<span class="tech-popular2">Мансарда</span>
+
+						<label class="left-check">
+							<input type="checkbox" checked="checked" value="" name=""><span></span>
+						</label>
+						<span class="tech-popular3">Терраса</span>
+					</div>
+
+					<div class="cat-button-show">
+						<input type="submit" value="Показать" class="cat-button-green">
+					</div>
+				</div>
+
+				<div class="tab-content">
+					<div class="tab-pane fade in active" id="brus">
+						<!-- ПРАВАЯ ЧАСТЬ -->
+						<div class="col-xs-9 cat-right">
+							<!--cтрока-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/catper.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/catper.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<img src="images/catper.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div> 
+
+							</div>
+
+							<!-- стр-2 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/hit1.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/hit1.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<img src="images/hit1.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-3 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/hit2.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/hit2.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<img src="images/hit2.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-4 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-5 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-6 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-7 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-8 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-9 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+					<!-- TAB2 -->
+					<div class="tab-pane fade" id="brevna">
+						<!-- ПРАВАЯ ЧАСТЬ -->
+						<div class="col-xs-9 cat-right">
+							<!--cтрока-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/catper.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/catper.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<img src="images/catper.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div> 
+
+							</div>
+
+							<!-- стр-2 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/hit1.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/hit1.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<img src="images/hit1.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-3 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/hit2.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<img src="images/hit2.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<img src="images/hit2.png" class="cat-propos">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-4 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-5 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-6 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-7 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-8 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+
+							<!-- стр-9 -->
+							<!--cтраница-1-->
+							<div class="cat-gallery-row">
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+								</div>
+
+								<div class="cat-gal-house">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+								<div class="cat-gal-house-last">
+									<img src="images/project.png">
+									<div class="cat-dom">
+										Дом из бруса Д-2
+									</div>
+
+									<div class="cat-sizes">
+										<p>6x8 м</p>
+										<p class="cat-p">73.8 м<sup>2</sup></p>
+									</div>
+
+									<div class="cat-price">
+										750 000 <span class="rubl">a</span>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<!-- НАВИГАЦИЯ ПОСТРАНИЧНАЯ -->
+		<div class="fluid-container"> 
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="form-pagination">
+							<ul class="pagination">
+								<li class="disabled"><a href="#" class="leftpag"><span class="glyphicon glyphicon-chevron-left"></span></a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#" class="rightpag"><span class="glyphicon glyphicon-chevron-right"></span></a></li>
+							</ul>
+						</div>
+						<hr class="after-pagination">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- НИЖНИЙ СЛАЙДЕР -->
+		<div class="fluid-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<p class="article-main-title-text">Полезно знать</p>
+						<div id="carousel-example-generic5" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ul class="carousel-indicators carousel-indicators2">
+								<li data-target="#carousel-example-generic5" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic5" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic5" data-slide-to="2"></li>
+								<li data-target="#carousel-example-generic5" data-slide-to="3"></li>
+							</ul>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+
+								<div class="item active">
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img1.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Выбор фундамента для будущего дома</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img2.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Идеальная кровля, есть ли компромис - цена = качество?</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img3.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Выбор материала - брус или каркасный вариант?</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+								</div>
+
+
+
+								<div class="item">
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img1.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Выбор фундамента для будущего дома</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img2.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Идеальная кровля, есть ли компромис - цена = качество?</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img3.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Выбор материала - брус или каркасный вариант?</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img1.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Выбор фундамента для будущего дома</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img2.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Идеальная кровля, есть ли компромис - цена = качество?</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img3.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Выбор материала - брус или каркасный вариант?</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img1.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Выбор фундамента для будущего дома</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img2.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Идеальная кровля, есть ли компромис - цена = качество?</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+									<div class="bottom-slider-wrap">
+										<img src="images/bottom-slider-img3.png" alt="">
+										<p class="articles-date-text">20 декарбя 2015</p>
+										<a href="#"><p class="articles-title-text"><span>Выбор материала - брус или каркасный вариант?</span></p></a>
+										<p class="articles-main-text">
+											Деревянные дома – отличный баланс<br> 
+											между комфортом и экологичностью.<br>
+											Они позволяют быть ближе к<br>
+											природе, заряжаться здоровьем, жить<br>
+											в уюте не в ущерб прогрессу.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="after-cat">
+			</div>
+		</div>
+
+		//= templates/_Footer.html
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="js/common.js"></script>
+	</body>
+	</html>
