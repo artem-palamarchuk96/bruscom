@@ -9,7 +9,6 @@
   "homepage": "",
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "flexslider": "^2.6.1",
     "fancybox": "^2.1.5",
     "nouislider": "^8.5.1"
   }

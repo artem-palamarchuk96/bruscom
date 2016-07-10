@@ -3,3 +3,5 @@
 //= ../../bower_components/fancybox/source/jquery.fancybox.pack.js
 //= ../../bower_components/nouislider/distribute/nouislider.js
 
+//= partials/script.js
+//= partials/script-2.js
