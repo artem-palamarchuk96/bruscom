@@ -1,0 +1,13 @@
+{
+  "name": "bruscom",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Artem"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
