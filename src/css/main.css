@@ -1,0 +1,5 @@
+@import (less) url(../../bower_components/bootstrap/dist/css/bootstrap.css);
+@import (less) url(../../bower_components/fancybox/source/jquery.fancybox.css);
+@import (less) url(../../bower_components/nouislider/distribute/nouislider.min.css);
+
+@import (less) url(partials/style-2.css);
