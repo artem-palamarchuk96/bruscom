@@ -12,12 +12,9 @@
 @import (less) url(partials/table.css);
 @import (less) url(partials/photogallery.css);
 @import (less) url(partials/catalog-of-projects.css);
-
+@import (less) url(partials/pages-nav.css);
+@import (less) url(partials/slider-before-footer.css);
 
 @import (less) url(partials/footer.css);
-
-
 @import (less) url(partials/callback.css);
-
 @import (less) url(partials/style.css);
-@import (less) url(partials/style-2.css);

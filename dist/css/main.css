@@ -8242,6 +8242,128 @@ a.gal-el:hover {
 .in-catalog-text span:hover {
   border-bottom: 0;
 }
+/*ПОСТРАНИЧНАЯ НАВИГАЦИЯ*/
+.form-pagination {
+  text-align: center;
+  width: 100%;
+  padding-left: 38%;
+  margin-top: 60px;
+}
+.form-pagination .glyphicon {
+  font-size: 24px;
+}
+.pagination {
+  width: 100%;
+}
+.pagination > li > a {
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4f8330;
+  border-radius: 3px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "GothamProBold";
+  color: #31943c;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  z-index: 3;
+  color: white;
+  cursor: default;
+  border-radius: 3px;
+  background-color: #31943c;
+  opacity: 1;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  z-index: 2;
+  color: white;
+  border-radius: 3px;
+  background-color: #31943c;
+  opacity: 1;
+}
+.leftpag {
+  margin-right: 2%!important;
+  padding: 3px 0px!important;
+  text-align: center;
+  width: 38px!important;
+  height: 36px!important;
+}
+.rightpag {
+  margin-left: 2%!important;
+  padding: 0!important;
+  width: 38px!important;
+  height: 36px!important;
+  text-align: center;
+  padding: 3px 0px!important;
+}
+.after-pagination {
+  margin-top: 60px;
+  border-top: 1px solid;
+  color: #e6e5e5;
+  margin-bottom: 35px;
+}
+/* carousel before footer */
+.article-main-title-text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 45px;
+  font-size: 36px;
+  color: #545b54;
+  line-height: 0.583;
+}
+.bottom-slider-main-wrap {
+  margin: 0 3.5%;
+}
+.bottom-slider-wrap {
+  width: 31%;
+  float: left;
+}
+.bottom-slider-wrap a:hover {
+  text-decoration: none;
+}
+.bottom-slider-wrap p {
+  margin-left: 3%;
+}
+.bottom-slider-wrap img {
+  width: 100%;
+}
+.bottom-slider-wrap:nth-child(2) {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+.carousel-indicators2 {
+  bottom: -80px !important;
+}
+.carousel-indicators3 {
+  margin-bottom: -80px !important;
+}
+.carousel-indicators3 {
+  margin-bottom: -100px !important;
+}
+.carousel-indicators2 .active,
+.carousel-indicators3 .active {
+  margin: 5px !important;
+  background-color: #31943c !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+.carousel-indicators2 li,
+.carousel-indicators3 li {
+  margin: 5px !important;
+  width: 18px !important;
+  height: 18px !important;
+  border: 2px solid #31943c !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
 /* footer */
 .xsfooter {
   padding-right: 0!important;
@@ -8260,6 +8382,42 @@ a.gal-el:hover {
   vertical-align: top;
   margin-top: -12px;
   margin-left: 14px;
+}
+.footer-number {
+  font-size: 16px;
+  font-family: "GothamProRegular";
+  color: #359640;
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: center;
+}
+.footer-tel-number {
+  font-size: 24px;
+  color: #474747;
+}
+.footer-content-text {
+  font-size: 11px;
+  color: #545b54;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 20%;
+}
+.footer-address-link {
+  font-size: 12px;
+  font-family: "GothamProLight";
+  color: #359640;
+  line-height: 1.333;
+  text-align: center;
+}
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: #359640;
+}
+.footer-numbers {
+  width: 200px;
+  height: 100px;
+  margin-left: 75px;
+  margin-top: -7%;
 }
 .footer-img-logo {
   margin-left: -15px;
@@ -8410,7 +8568,6 @@ form#popup-form .button-red {
 .fancybox-close:hover {
   background-position: -50px -67px !important;
 }
-/* send form */
 .send-form-main-wrap {
   position: relative;
   background: linear-gradient(to right, #31943c, #8bc63f);
@@ -8469,7 +8626,6 @@ form#popup-form .button-red {
 .send-form input[type="submit"]:hover {
   background: #5d5d5d;
 }
-/* about kaski sudbi */
 .about-fluid {
   background: url(../images/about-back.png) center center;
   height: 351px;
@@ -8492,7 +8648,6 @@ form#popup-form .button-red {
 hr.about-divider {
   margin-top: 35px;
 }
-/* gellery */
 .gallery {
   margin-top: 70px;
 }
@@ -8570,7 +8725,6 @@ img.green-arrow-right {
 .gallery-divider {
   margin-top: 35px;
 }
-/* work path*/
 .work-path-row {
   text-align: center;
   margin-top: 35px;
@@ -8587,7 +8741,6 @@ img.green-arrow-right {
   color: #545b54;
   line-height: 0.583;
 }
-/* ОТЗЫВЫ*/
 .reviews-title {
   text-align: center;
   margin-top: 10px;
@@ -8617,62 +8770,8 @@ img.green-arrow-right {
   width: 60%;
   margin-bottom: 30px;
 }
-/* send form2 */
 .send-form-wrap-2 {
   background: url(../images/send-form-2-back.png);
-}
-/* carousel before footer */
-.article-main-title-text {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 45px;
-  font-size: 36px;
-  color: #545b54;
-  line-height: 0.583;
-}
-.bottom-slider-main-wrap {
-  margin: 0 3.5%;
-}
-.bottom-slider-wrap {
-  width: 31%;
-  float: left;
-}
-.bottom-slider-wrap a:hover {
-  text-decoration: none;
-}
-.bottom-slider-wrap p {
-  margin-left: 3%;
-}
-.bottom-slider-wrap img {
-  width: 100%;
-}
-.bottom-slider-wrap:nth-child(2) {
-  margin-left: 3.5%;
-  margin-right: 3.5%;
-}
-.carousel-indicators2 {
-  bottom: -80px !important;
-}
-.carousel-indicators3 {
-  margin-bottom: -80px !important;
-}
-.carousel-indicators3 {
-  margin-bottom: -100px !important;
-}
-.carousel-indicators2 .active,
-.carousel-indicators3 .active {
-  margin: 5px !important;
-  background-color: #31943c !important;
-  width: 18px !important;
-  height: 18px !important;
-}
-.carousel-indicators2 li,
-.carousel-indicators3 li {
-  margin: 5px !important;
-  width: 18px !important;
-  height: 18px !important;
-  border: 2px solid #31943c !important;
-  background-color: rgba(255, 255, 255, 0) !important;
 }
 .rewiews-slider-main-wrap {
   margin: 0 3.5%;
@@ -8681,7 +8780,6 @@ img.green-arrow-right {
   width: 100%;
   height: 180px;
 }
-/*полезно знать */
 .articles-date-text {
   font-size: 12px;
   color: #1c1e1a;
@@ -8710,7 +8808,6 @@ hr.green-divider {
   border-top: 1px solid #31943c;
   margin-bottom: 35px;
 }
-/*ФОРМА ОТПРАВКИ*/
 .send-title {
   text-align: center;
   margin-top: 36px;
@@ -8727,6 +8824,7 @@ hr.green-divider {
   padding-bottom: 40px;
 }
 .form-line {
+  position: relative;
   width: 100%;
   margin-bottom: 15px;
 }
@@ -8745,6 +8843,11 @@ hr.green-divider {
 }
 .name_mob_mail p {
   float: left;
+  margin: 0px!important;
+  font-size: 14px;
+  font-family: "GothamProRegular";
+  color: #383943;
+  line-height: 1.214;
 }
 .name_mob_mail a {
   display: inline-block;
@@ -8755,20 +8858,13 @@ hr.green-divider {
 .name_mob_mail a:hover {
   text-decoration: none;
 }
-.name_mob_mail p {
-  margin: 0px!important;
-  font-size: 14px;
-  font-family: "GothamProRegular";
-  color: #383943;
-  line-height: 1.214;
-}
 .forma input[type="text"] {
+  padding-left: 2%;
+  padding-right: 2%;
   outline: none;
   width: 100%;
   display: inline-block;
   vertical-align: middle;
-}
-.forma input[type="text"] {
   height: 30px;
   border-style: solid;
   border-width: 1px;
@@ -8778,6 +8874,8 @@ hr.green-divider {
   box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
 }
 .forma textarea {
+  padding-left: 1%;
+  padding-right: 1%;
   outline: none;
   resize: none;
   width: 100%;
@@ -8802,48 +8900,49 @@ hr.green-divider {
   font-family: "GothamProLight";
   color: #252525;
   line-height: 1.75;
-  text-align: left;
   text-align: justify;
 }
 .project-popup-wrap .form {
   padding-top: 0;
 }
 .form-line-send-chek {
+  position: relative;
   width: 100%;
   margin-top: 30px;
   margin-bottom: 15px;
 }
-/*CHECKBOX*/
 .form-line-check {
+  position: relative;
   width: 42%;
   height: 35px;
   float: right;
   padding-left: 2%;
 }
 .custom-check {
+  margin-right: 2%;
   position: relative;
   width: 20px;
   height: 20px;
   margin-top: 2%;
-  margin-right: 2%;
+  margin-right: 23%;
   margin-left: 5%;
 }
 label.custom-check input[type="checkbox"] + span {
+  background: url(../images/check-field.png) no-repeat;
   position: absolute;
   left: -1px;
   top: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/check-field.png) no-repeat;
+  background: url(../images/sprite.png) -216px 0 no-repeat;
   cursor: pointer;
 }
 label.custom-check input[type="checkbox"]:checked + span {
   background: url(../images/check-field-checked.png) no-repeat;
+  background: url(../images/sprite.png) -240px 0 no-repeat;
 }
-/* item -> gallery */
 .item-gallery-main-wrap {
   width: 100%;
-  /* width: 960px; */
 }
 .item-gallery-title {
   font-size: 24px;
@@ -8975,15 +9074,10 @@ hr.item-gallery-divider {
   padding: 5.8% 0;
   text-align: center;
 }
-/* item -> plan */
 .item-plan {
   margin-top: 20px;
   width: 55.5%;
 }
-.item-gallery-big-img {
-  width: 100%;
-}
-/* item -> calc-table */
 .item-calc-table-main-wrap {
   width: 100%;
   background: #f7f7f7;
@@ -9002,7 +9096,6 @@ hr.item-gallery-divider {
 .item-calc-table-header {
   background-color: #e6e5e5;
   width: 100%;
-  /* 960px*/
   height: 103px;
   text-align: center;
   padding-top: 20px;
@@ -9298,17 +9391,19 @@ hr.item-gallery-divider {
   color: #e6e5e5;
   margin-bottom: 50px;
 }
-/*ПРИКРЕПИТЬ ФАЙЛ(ОБЗОР)*/
 .form-line-send {
   width: 57%;
   height: 35px;
   float: left;
 }
 .sposob {
+  position: absolute;
   font-size: 14px;
   font-family: "GothamProLight";
   color: #383943;
   line-height: 1.429;
+  left: 16%;
+  top: 25%;
 }
 .sposob-svaz {
   font-size: 14px;
@@ -9320,11 +9415,14 @@ hr.item-gallery-divider {
 }
 .form-line-send label {
   width: 130px!important;
+  top: 0;
+  left: 0;
+  width: 50%!important;
   height: 35px!important;
   margin: 0px!important;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
   cursor: pointer;
 }
 .prik {
@@ -9345,6 +9443,7 @@ hr.item-gallery-divider {
   border-color: #cccccc;
   border-radius: 3px;
   background-color: #ffffff;
+  padding: 1%;
 }
 .selectbutton {
   border-radius: 3px;
@@ -9364,10 +9463,13 @@ hr.item-gallery-divider {
 #upload {
   width: 0%;
   height: 0%;
+  -moz-opacity: 0;
+  opacity: 0;
+  width: 200%;
+  height: 100%;
   z-index: 20;
   cursor: pointer;
 }
-/*РАДИОБАТОНЫ*/
 .form-line-radio {
   position: relative;
   width: 100%;
@@ -9385,11 +9487,13 @@ hr.item-gallery-divider {
   line-height: 1.214;
 }
 #radio-buttons1 {
+  margin-left: 2.3%;
+  margin-top: -57px;
   position: absolute;
   width: 15%;
   height: 15px;
-  margin-left: 2.3%;
-  margin-top: -57px;
+  margin-left: 3%;
+  margin-top: -5.3%;
   cursor: pointer;
   font-size: 14px;
   font-family: "GothamProLight";
@@ -9397,11 +9501,13 @@ hr.item-gallery-divider {
   line-height: 1.429;
 }
 #radio-buttons2 {
+  margin-left: 15.3%;
+  margin-top: -57px;
   position: absolute;
   width: 15%;
   height: 15px;
-  margin-left: 15.3%;
-  margin-top: -57px;
+  margin-left: 16%;
+  margin-top: -5.3%;
   cursor: pointer;
   font-size: 14px;
   font-family: "GothamProLight";
@@ -9409,11 +9515,13 @@ hr.item-gallery-divider {
   line-height: 1.429;
 }
 #radio-buttons3 {
+  margin-left: 28.3%;
+  margin-top: -57px;
   position: absolute;
   width: 15%;
   height: 15px;
-  margin-left: 28.3%;
-  margin-top: -57px;
+  margin-left: 29%;
+  margin-top: -5.3%;
   cursor: pointer;
   font-size: 14px;
   font-family: "GothamProLight";
@@ -9431,19 +9539,20 @@ hr.item-gallery-divider {
   margin-left: 26%!important;
 }
 .form-line-radio input[type="radio"] {
+  background: url(../images/radio.png) left center no-repeat;
+  background-size: 20px;
   -webkit-appearance: none;
   border: none;
   width: 25px;
   height: 25px;
-  background: url(../images/radio.png) left center no-repeat;
-  background-size: 20px;
+  background: url(../images/sprite.png) -284px 0 no-repeat;
   outline: none;
 }
 .form-line-radio input[type="radio"]:checked {
-  outline: none;
   background: url(../images/radio-checked.png) left center no-repeat;
+  outline: none;
+  background: url(../images/sprite.png) -261px 0 no-repeat;
 }
-/*КНОПКА ОТПРАВИТЬ ЗАКАЗ*/
 .form-line-button-send {
   width: 100%;
   margin-top: 40px;
@@ -9462,8 +9571,6 @@ hr.item-gallery-divider {
   line-height: 2.429;
   text-align: center;
 }
-/*ОТПРАВИТЬ ВОПРОС FAQ*/
-/* faq */
 .faq-send-form-main-wrap {
   width: 100%;
 }
@@ -9496,6 +9603,8 @@ hr.item-gallery-divider {
   outline: none;
 }
 .input-1 {
+  padding-left: 1%;
+  padding-right: 1%;
   width: 69.5833%;
 }
 .faq-send-form-small-input-wrap {
@@ -9504,12 +9613,18 @@ hr.item-gallery-divider {
   width: 33.3333%;
 }
 .input-2 {
+  padding-left: 2%;
+  padding-right: 2%;
   width: 100%;
 }
 .input-3 {
+  padding-left: 1%;
+  padding-right: 1%;
   width: 85.4166%;
 }
 .faq-send-form-textarea {
+  padding-left: 1%;
+  padding-right: 1%;
   width: 85.4166%;
   height: 195px;
   resize: none;
@@ -9538,6 +9653,7 @@ input[type="checkbox"] + span {
 }
 input[type="checkbox"]:checked + span {
   background: url(../images/check-field-checked.png) no-repeat;
+  background: url(../images/sprite.png) -239px 0 no-repeat;
 }
 .faq-send-form-btn-wrap {
   width: 85.4166%;
@@ -9556,80 +9672,10 @@ input[type="checkbox"]:checked + span {
   margin-top: 40px;
 }
 .faq-send-form-btn:hover {
-  background-image: -moz-linear-gradient(90deg, #f8b035 0%, #eaa227 100%);
-  background-image: -webkit-linear-gradient(90deg, #f8b035 0%, #eaa227 100%);
   background-image: -ms-linear-gradient(90deg, #f8b035 0%, #eaa227 100%);
   box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 1, 0.4);
+  background-color: #5d5d5d;
 }
-/*ПОСТРАНИЧНАЯ НАВИГАЦИЯ*/
-.form-pagination {
-  width: 70%;
-  margin-left: 38%;
-  margin-top: 60px;
-}
-.form-pagination .glyphicon {
-  font-size: 24px;
-}
-.pagination {
-  width: 100%;
-}
-.pagination > li > a {
-  margin-left: 0.2%;
-  margin-right: 0.2%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #4f8330;
-  border-radius: 3px;
-  background-color: #ffffff;
-  font-size: 16px;
-  font-family: "GothamProBold";
-  color: #31943c;
-}
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover {
-  z-index: 3;
-  color: white;
-  cursor: default;
-  border-radius: 3px;
-  background-color: #31943c;
-  opacity: 1;
-}
-.pagination > li > a:focus,
-.pagination > li > a:hover,
-.pagination > li > span:focus,
-.pagination > li > span:hover {
-  z-index: 2;
-  color: white;
-  border-radius: 3px;
-  background-color: #31943c;
-  opacity: 1;
-}
-.leftpag {
-  margin-right: 2%!important;
-  padding: 3px 0px!important;
-  text-align: center;
-  width: 38px!important;
-  height: 36px!important;
-}
-.rightpag {
-  margin-left: 2%!important;
-  padding: 0!important;
-  width: 38px!important;
-  height: 36px!important;
-  text-align: center;
-  padding: 3px 0px!important;
-}
-.after-pagination {
-  margin-top: 60px;
-  border-top: 1px solid;
-  color: #e6e5e5;
-  margin-bottom: 35px;
-}
-/*ВОПРОС ОТВЕТ*/
 .ask-title {
   text-align: center;
   margin-top: 36px;
@@ -9656,8 +9702,10 @@ input[type="checkbox"]:checked + span {
   width: 45%;
 }
 .ask-size {
-  margin-left: 4%;
   width: 73% !important;
+  position: relative;
+  margin-left: 4%;
+  width: 73%!important;
   margin-bottom: 30px;
 }
 .ask-drop-menu {
@@ -9679,6 +9727,9 @@ input[type="checkbox"]:checked + span {
 }
 .ask-caret {
   margin-left: 38% !important;
+  position: absolute;
+  top: 50%;
+  left: 94%;
 }
 .ask-tem {
   margin-left: 4%;
@@ -9699,8 +9750,9 @@ input[type="checkbox"]:checked + span {
 }
 .key-words input[type="text"] {
   outline: none;
-  width: 100%;
+  width: 326px;
   margin-bottom: 30px;
+  padding-left: 2%;
   display: inline-block;
   vertical-align: middle;
   border-style: solid;
@@ -9709,15 +9761,16 @@ input[type="checkbox"]:checked + span {
   border-radius: 3px;
   background-color: #ffffff;
   box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
-  width: 326px;
   height: 35px;
 }
-/*КНОПКА ПОКАЗАТЬ*/
 .ask-button-show {
+  width: 100%;
+  text-align: right;
   position: absolute;
   top: 41%;
   left: 85%;
-  width: 100%;
+  width: 12%;
+  height: 50px;
 }
 .ask-button-green {
   outline: none;
@@ -9738,7 +9791,6 @@ input[type="checkbox"]:checked + span {
   color: #e6e5e5;
   margin-bottom: 20px;
 }
-/*ТЕКСТ FAQ*/
 .faq1 {
   position: relative;
   padding-left: 5%;
@@ -9776,17 +9828,22 @@ input[type="checkbox"]:checked + span {
   line-height: 1.5;
   text-align: left;
   margin-bottom: 0px;
+  margin-top: 2%;
 }
 .faq-answer {
   margin-left: -5.5%;
   width: 111%!important;
+  margin-left: -0.5%;
+  width: 100%!important;
   background-color: #ffffff;
   height: 136px;
+  padding-top: 15px;
 }
 .faq-answer img {
+  margin: 2% 2% 2% 5%;
   width: 88px;
   height: 83px;
-  margin: 2% 2% 2% 5%;
+  margin: 2% 2% 2% 0;
   float: left;
 }
 .faq1 p:before {
@@ -9799,12 +9856,13 @@ input[type="checkbox"]:checked + span {
   background: url(../images/ellipse3.png) no-repeat;
 }
 .faq2 p:before {
+  left: 37px;
   content: "";
   width: 13px;
   height: 13px;
   position: absolute;
   top: 15px;
-  left: 37px;
+  left: 3%;
   background: url(../images/ellipse3.png) no-repeat;
 }
 .hr-faq {
@@ -9837,7 +9895,6 @@ input[type="checkbox"]:checked + span {
   color: #e6e5e5;
   margin-bottom: 60px;
 }
-/*ПОПУЛЯРНЫЕ ПРОEКТЫ*/
 .popular-title {
   font-size: 36px;
   font-family: "GothamProRegular";
@@ -9850,13 +9907,13 @@ input[type="checkbox"]:checked + span {
 .popular-project {
   margin-top: 60px;
 }
-/*Projects*/
 .project {
   padding-right: 2px !important;
   padding-left: 2px !important;
 }
 .pop {
   padding-left: 6% !important;
+  padding-left: 6%!important;
 }
 .slides {
   width: 80%;
@@ -9931,7 +9988,6 @@ input[type="checkbox"]:checked + span {
   margin-bottom: 40px;
   margin-top: 140px;
 }
-/* REVIEW */
 .review-row-1 {
   margin-bottom: 30px;
 }
@@ -10017,8 +10073,6 @@ input[type="checkbox"]:checked + span {
   color: #e6e5e5;
   margin-bottom: 60px;
 }
-/*CAT*/
-/*ОСНОВНОЕ МЕНЮ*/
 .cat {
   padding-left: 0px!important;
   padding-right: 0px!important;
@@ -10040,8 +10094,6 @@ input[type="checkbox"]:checked + span {
   height: 100%;
   padding-top: 17px;
   border: none!important;
-}
-.cat-nav > li > a {
   font-size: 24px;
   font-family: "GothamProMedium";
   line-height: 0.625;
@@ -10057,8 +10109,6 @@ input[type="checkbox"]:checked + span {
   color: #151615;
   text-decoration: none;
 }
-/* галерея и выборка */
-/*LEFT*/
 .left-col {
   margin-top: 35px;
   background-color: #e6e5e5;
@@ -10135,16 +10185,18 @@ input[type="checkbox"]:checked + span {
   margin-bottom: 5%;
 }
 label.left-check input[type="checkbox"] + span {
+  background: url(../images/check-field.png) no-repeat;
   position: absolute;
   left: -1px;
   top: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/check-field.png) no-repeat;
+  background: url(../images/sprite.png) -216px 0 no-repeat;
   cursor: pointer;
 }
 label.left-check input[type="checkbox"]:checked + span {
   background: url(../images/check-field-checked.png) no-repeat;
+  background: url(../images/sprite.png) -240px 0 no-repeat;
 }
 .plosh input {
   outline: none;
@@ -10214,8 +10266,9 @@ div#st3 {
   width: 100%;
 }
 .cat-button-show {
-  width: 100%;
   padding-left: 52%;
+  width: 100%;
+  text-align: right;
 }
 .cat-button-green {
   outline: none;
@@ -10238,7 +10291,6 @@ div#st3 {
   height: 125px;
   margin-bottom: 30px;
 }
-/*RIGHT*/
 .cat-right {
   margin-top: 35px;
   width: 73%;
@@ -10317,19 +10369,21 @@ p.cat-p {
   text-align: center;
 }
 .cat-sizes p:before {
+  left: -95%;
   content: "";
   position: absolute;
   top: -10%;
-  left: -95%;
+  left: -75%;
   background: url(../images/catm.png) no-repeat;
   width: 25px;
   height: 25px;
 }
 .cat-sizes p.cat-p:before {
+  left: -70%;
   content: "";
   position: absolute;
   top: -10%;
-  left: -70%;
+  left: -60%;
   width: 25px;
   height: 25px;
   background: url(../images/catm2.png) no-repeat;
@@ -10343,39 +10397,6 @@ p.cat-p {
   text-align: center;
   padding-top: 23px;
 }
-/* ОТЗЫВЫ*/
-.reviews-title {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 45px;
-  font-size: 36px;
-  color: #545b54;
-  line-height: 0.583;
-}
-.rewiews-slider-main-wrap {
-  margin: 0 3.5%;
-}
-.rewiews-slider-wrap {
-  width: 100%;
-  height: 180px;
-}
-.carousel-indicators2 {
-  margin-bottom: -80px !important;
-}
-.carousel-indicators2 .active {
-  margin: 5px !important;
-  background-color: #31943c !important;
-  width: 18px !important;
-  height: 18px !important;
-}
-.carousel-indicators2 li {
-  margin: 5px !important;
-  width: 18px !important;
-  height: 18px !important;
-  border: 2px solid #31943c !important;
-  background-color: rgba(255, 255, 255, 0) !important;
-}
-/*сама подпись */
 .user-item {
   width: 85%;
   height: 40px;
@@ -10437,159 +10458,17 @@ p.cat-p {
 .dislike {
   margin-top: 8%;
 }
-/*ФОРМА ОТПРАВКИ*/
-.send-title {
-  text-align: center;
-  margin-top: 36px;
-  margin-bottom: 66px;
-  font-size: 36px;
-  color: #545b54;
-  line-height: 0.583;
-}
-.form {
-  background-color: #f7f7f7;
-  margin-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 40px;
-}
-.form-line {
-  position: relative;
-  width: 100%;
-  margin-bottom: 15px;
-}
-.name_mob_mail {
-  display: inline-block;
-  width: 32.6%;
-}
-.name_mob_mail2 {
-  display: inline-block;
-  width: 32.6%;
-  margin-right: 5px;
-  margin-left: 5px;
-}
-.name_mob_mail2 p {
-  margin-bottom: 0;
-}
-.name_mob_mail p {
-  float: left;
-}
 .more {
   width: 13%;
   position: absolute;
   text-decoration: underline;
   color: #31943c;
-  top: 0% ;
+  top: 0%;
   left: 87%;
 }
 a:hover.more {
   color: black;
   text-decoration: none;
-}
-.name_mob_mail p {
-  margin: 0px!important;
-  font-size: 14px;
-  font-family: "GothamProRegular";
-  color: #383943;
-  line-height: 1.214;
-}
-.forma input[type="text"] {
-  padding-left: 2%;
-  padding-right: 2%;
-  outline: none;
-  width: 100%;
-  display: inline-block;
-  vertical-align: middle;
-  height: 30px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-  border-radius: 3px;
-  background-color: #ffffff;
-  box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
-}
-.forma textarea {
-  padding-left: 1%;
-  padding-right: 1%;
-  outline: none;
-  resize: none;
-  width: 100%;
-  height: 90px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-  border-radius: 3px;
-  background-color: #ffffff;
-  box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
-}
-.project-popup-wrap {
-  width: 100%;
-  background-color: #f7f7f7;
-}
-.project-popup-wrap .zayavka-text {
-  padding: 30px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  margin-top: 0;
-  font-size: 12px;
-  font-family: "GothamProLight";
-  color: #252525;
-  line-height: 1.75;
-  text-align: left;
-  text-align: justify;
-}
-.project-popup-wrap .form {
-  padding-top: 0;
-}
-.form-line-send-chek {
-  position: relative;
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-/*CHECKBOX*/
-.form-line-check {
-  position: relative;
-  width: 42%;
-  height: 35px;
-  float: right;
-  padding-left: 2%;
-}
-.custom-check {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  margin-top: 2%;
-  margin-right: 23%;
-  margin-left: 5%;
-}
-label.custom-check input[type="checkbox"] + span {
-  position: absolute;
-  left: -1px;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../images/sprite.png) -216px 0 no-repeat;
-  cursor: pointer;
-}
-label.custom-check input[type="checkbox"]:checked + span {
-  background: url(../images/sprite.png) -240px 0 no-repeat;
-}
-/**/
-/*ПРИКРЕПИТЬ ФАЙЛ(ОБЗОР)*/
-.form-line-send {
-  width: 57%;
-  height: 35px;
-  float: left;
-}
-.sposob {
-  position: absolute;
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #383943;
-  line-height: 1.429;
-  left: 16%;
-  top: 25%;
 }
 .sposob2 {
   position: absolute;
@@ -10599,51 +10478,6 @@ label.custom-check input[type="checkbox"]:checked + span {
   line-height: 1.429;
   left: 49%;
   top: 25%;
-}
-.sposob-svaz {
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #383943;
-  line-height: 1.214;
-  margin-bottom: 5px;
-  margin-left: 62%;
-}
-.form-line-send label {
-  width: 50%!important;
-  height: 35px!important;
-  margin: 0px!important;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  cursor: pointer;
-}
-.prik {
-  width: 60%;
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #383943;
-  line-height: 1.214;
-  margin-bottom: -20px;
-}
-#upload {
-  -moz-opacity: 0;
-  opacity: 0;
-  width: 200%;
-  height: 100%;
-  z-index: 20;
-  cursor: pointer;
-}
-#fileformlabel {
-  float: left;
-  height: 35px;
-  width: 377px;
-  text-align: left;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-  border-radius: 3px;
-  background-color: #ffffff;
-  padding: 1%;
 }
 #name {
   float: left;
@@ -10657,21 +10491,6 @@ label.custom-check input[type="checkbox"]:checked + span {
   background-color: #ffffff;
   color: black;
 }
-.selectbutton {
-  border-radius: 3px;
-  background-color: #31943c;
-  width: 21.3%;
-  height: 35px;
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #ffffff;
-  text-transform: uppercase;
-  line-height: 2.429;
-  text-align: center;
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-}
 .selectbutton:hover {
   background-color: #5d5d5d;
 }
@@ -10681,417 +10500,12 @@ label.custom-check input[type="checkbox"]:checked + span {
   z-index: 20;
   cursor: pointer;
 }
-/*   */
-/*РАДИОБАТОНЫ*/
-.form-line-radio {
-  position: relative;
-  width: 100%;
-  margin-top: 80px;
-  margin-bottom: 15px;
-}
-.form-line-radio label {
-  margin-top: 5%;
-}
-.form-line-radio p {
-  margin: 0;
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #383943;
-  line-height: 1.214;
-}
-#radio-buttons1 {
-  position: absolute;
-  width: 15%;
-  height: 15px;
-  margin-left: 3%;
-  margin-top: -5.3%;
-  cursor: pointer;
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #383943;
-  line-height: 1.429;
-}
-#radio-buttons2 {
-  position: absolute;
-  width: 15%;
-  height: 15px;
-  margin-left: 16%;
-  margin-top: -5.3%;
-  cursor: pointer;
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #383943;
-  line-height: 1.429;
-}
-#radio-buttons3 {
-  position: absolute;
-  width: 15%;
-  height: 15px;
-  margin-left: 29%;
-  margin-top: -5.3%;
-  cursor: pointer;
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #383943;
-  line-height: 1.429;
-}
-#custom-radio {
-  position: absolute;
-  margin-left: 13%;
-}
-.c-r {
-  margin-left: 0%!important;
-}
-.c-r2 {
-  margin-left: 26%!important;
-}
-.form-line-radio input[type="radio"] {
-  -webkit-appearance: none;
-  border: none;
-  width: 25px;
-  height: 25px;
-  background: url(../images/sprite.png) -284px 0 no-repeat;
-  outline: none;
-}
-.form-line-radio input[type="radio"]:checked {
-  outline: none;
-  background: url(../images/sprite.png) -261px 0 no-repeat;
-}
-/*КНОПКА ОТПРАВИТЬ ЗАКАЗ*/
-.form-line-button-send {
-  width: 100%;
-  margin-top: 40px;
-  padding-left: 77%;
-}
-.form-send-button-green {
-  outline: none;
-  border: 1px solid;
-  border-radius: 3px;
-  background-color: #31943c;
-  width: 207px;
-  height: 37px;
-  font-size: 14px;
-  font-family: "GothamProLight";
-  color: #ffffff;
-  line-height: 2.429;
-  text-align: center;
-}
 .form-send-button-green:hover {
   background-color: #5d5d5d;
-}
-/*ОТПРАВИТЬ ВОПРОС FAQ*/
-/* faq */
-.faq-send-form-main-wrap {
-  width: 100%;
-}
-.faq-send-form-title {
-  font-size: 36px;
-  color: #545b54;
-  text-align: center;
-}
-.faq-send-form-wrap {
-  background: #f7f7f7;
-  width: 100%;
-  height: 625px;
-  padding-top: 4.2%;
-  padding-left: 6.7%;
-  margin-top: 40px;
-}
-.faq-send-form-text {
-  font-size: 12px;
-  font-family: "GothamProBold";
-  color: #2b2a29;
-  font-weight: bold;
-}
-.faq-send-form-input {
-  border: 1px solid #cccccc;
-  border-radius: 3px;
-  background-color: #ffffff;
-  box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
-  height: 30px;
-  margin-bottom: 12px;
-  outline: none;
-}
-.input-1 {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 69.5833%;
-}
-.faq-send-form-small-input-wrap {
-  display: inline-block;
-  margin-right: 2.9166%;
-  width: 33.3333%;
-}
-.input-2 {
-  padding-left: 2%;
-  padding-right: 2%;
-  width: 100%;
-}
-.input-3 {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 85.4166%;
-}
-.faq-send-form-textarea {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 85.4166%;
-  height: 195px;
-  resize: none;
-  outline: none;
-}
-.faq-send-form-checkbox {
-  margin-top: 15px;
-}
-.custom-checkbox {
-  position: relative;
-  width: 2.08333%;
-  height: 20px;
-  display: inline-block;
-}
-input[type="checkbox"] {
-  display: none;
-}
-input[type="checkbox"] + span {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  height: 100%;
-  background: url(../images/sprite.png) -215px 0 no-repeat;
-  cursor: pointer;
-}
-input[type="checkbox"]:checked + span {
-  background: url(../images/sprite.png) -239px 0 no-repeat;
-}
-.faq-send-form-btn-wrap {
-  width: 85.4166%;
-}
-.faq-send-form-btn {
-  float: right;
-  border-radius: 3px;
-  background-color: #31943c;
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
-  width: 23.6585%;
-  height: 39px;
-  outline: none;
-  border: 0;
-  margin-top: 40px;
-}
-.faq-send-form-btn:hover {
-  background-color: #5d5d5d;
-}
-/*ПОСТРАНИЧНАЯ НАВИГАЦИЯ*/
-.form-pagination {
-  text-align: center;
-  width: 100%;
-  padding-left: 38%;
-  margin-top: 60px;
-}
-.form-pagination .glyphicon {
-  font-size: 24px;
-}
-.pagination {
-  width: 100%;
-}
-.pagination > li > a {
-  margin-left: 0.2%;
-  margin-right: 0.2%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #4f8330;
-  border-radius: 3px;
-  background-color: #ffffff;
-  font-size: 16px;
-  font-family: "GothamProBold";
-  color: #31943c;
-}
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover {
-  z-index: 3;
-  color: white;
-  cursor: default;
-  border-radius: 3px;
-  background-color: #31943c;
-  opacity: 1;
-}
-.pagination > li > a:focus,
-.pagination > li > a:hover,
-.pagination > li > span:focus,
-.pagination > li > span:hover {
-  z-index: 2;
-  color: white;
-  border-radius: 3px;
-  background-color: #31943c;
-  opacity: 1;
-}
-.leftpag {
-  margin-right: 2%!important;
-  padding: 3px 0px!important;
-  text-align: center;
-  width: 38px!important;
-  height: 36px!important;
-}
-.rightpag {
-  margin-left: 2%!important;
-  padding: 0!important;
-  width: 38px!important;
-  height: 36px!important;
-  text-align: center;
-  padding: 3px 0px!important;
-}
-.after-pagination {
-  margin-top: 60px;
-  border-top: 1px solid;
-  color: #e6e5e5;
-  margin-bottom: 35px;
-}
-/*ВОПРОС ОТВЕТ*/
-.ask-title {
-  text-align: center;
-  margin-top: 36px;
-  margin-bottom: 66px;
-  font-size: 36px;
-  color: #545b54;
-  line-height: 0.583;
-}
-.ask-form {
-  width: 100%;
-  height: 122px;
-  background-color: #e6e5e5;
-  padding-top: 27px;
-  padding-bottom: 30px;
-  position: relative;
-}
-.ask-left {
-  margin-left: 2%;
-  display: inline-block;
-  width: 45%;
-}
-.ask-right {
-  display: inline-block;
-  width: 45%;
-}
-.ask-size {
-  position: relative;
-  margin-left: 4%;
-  width: 73%!important;
-  margin-bottom: 30px;
-}
-.ask-drop-menu {
-  width: 100%;
-}
-.ask-font-btn-group {
-  width: 100%;
-  font-size: 12px;
-  font-family: "Verdana";
-  color: #666666;
-  line-height: 1.833;
-  text-align: left;
-}
-.ask-drop-button {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-  border-radius: 3px;
-}
-.ask-caret {
-  position: absolute;
-  top: 50%;
-  left: 94%;
-}
-.ask-tem {
-  margin-left: 4%;
-  width: 45%;
-  font-size: 12px;
-  font-family: "GothamProBold";
-  color: #2b2a29;
-  font-weight: bold;
-  line-height: 1.25;
-}
-.ask-key {
-  width: 45%;
-  font-size: 12px;
-  font-family: "GothamProBold";
-  color: #2b2a29;
-  font-weight: bold;
-  line-height: 1.25;
-}
-.key-words input[type="text"] {
-  outline: none;
-  width: 100%;
-  margin-bottom: 30px;
-  padding-left: 2%;
-  display: inline-block;
-  vertical-align: middle;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-  border-radius: 3px;
-  background-color: #ffffff;
-  box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
-  width: 326px;
-  height: 35px;
-}
-/*КНОПКА ПОКАЗАТЬ*/
-.ask-button-show {
-  text-align: right;
-  position: absolute;
-  top: 41%;
-  left: 85%;
-  width: 12%;
-  height: 50px;
-}
-.ask-button-green {
-  outline: none;
-  border: 1px solid;
-  border-radius: 3px;
-  background-color: #31943c;
-  width: 128px;
-  height: 39px;
-  font-family: "GothamProLight";
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.313;
 }
 .ask-button-green:hover {
   background-color: #5d5d5d;
 }
-.after-ask {
-  margin-top: 40px;
-  border-top: 1px solid;
-  color: #e6e5e5;
-  margin-bottom: 20px;
-}
-/*ТЕКСТ FAQ*/
-.faq1 {
-  position: relative;
-  padding-left: 5%;
-}
-.faq2 {
-  background-color: #f7f7f7;
-  height: 368px;
-  position: relative;
-  padding-left: 5%;
-  padding-top: 10px;
-  padding-right: 5%;
-}
-/*.faq1 p {
-	width: 90%;
-	font-size: 14px;
-	font-family: "GothamProLight";
-	color: rgb(49, 148, 60);
-	text-decoration: underline;
-	line-height: 2;
-	text-align: justify;
-}*/
 .fabula {
   width: 90%;
   font-size: 14px;
@@ -11111,180 +10525,6 @@ input[type="checkbox"]:checked + span {
   left: 2%;
   background: url(../images/ellipse3.png) no-repeat;
 }
-.faq2 p {
-  width: 90%;
-  font-size: 14px;
-  font-family: "GothamProRegular";
-  color: #2f2e2e;
-  line-height: 1.5;
-  text-align: left;
-}
-#faq-question-answer {
-  font-size: 14px;
-  font-family: "GothamProBold";
-  color: #3c3c3c;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: left;
-  margin-bottom: 0px;
-  margin-top: 2%;
-}
-.faq-answer {
-  margin-left: -0.5%;
-  width: 100%!important;
-  background-color: #ffffff;
-  height: 136px;
-  padding-top: 15px;
-}
-.faq-answer img {
-  width: 88px;
-  height: 83px;
-  margin: 2% 2% 2% 0;
-  float: left;
-}
-/*
-.faq1 p:before {
-	content: "";
-	width:13px; 
-	height:13px;
-	position: absolute;
-	top:9px;
-	left: 3%;
-	background: url(../images/ellipse3.png) no-repeat;
-}*/
-.faq2 p:before {
-  content: "";
-  width: 13px;
-  height: 13px;
-  position: absolute;
-  top: 15px;
-  left: 3%;
-  background: url(../images/ellipse3.png) no-repeat;
-}
-.hr-faq {
-  margin-top: 15px;
-  border-top: 1px solid;
-  color: #e6e5e5;
-  margin-bottom: 15px;
-}
-.hr-faq2 {
-  margin-top: 15px;
-  border-top: 1px solid;
-  color: #e6e5e5;
-  margin-bottom: 0px;
-}
-.hr-infaq {
-  margin-top: 15px;
-  border: 1px solid;
-  color: #0f9738;
-  margin-bottom: 15px;
-}
-.hr-after-faq {
-  margin-top: 0px!important;
-  border-top: 1px solid;
-  color: #e6e5e5;
-  margin-bottom: 15px;
-}
-.hr-after-all-faq {
-  margin-top: 40px!important;
-  border-top: 1px solid;
-  color: #e6e5e5;
-  margin-bottom: 60px;
-}
-/*ПОПУЛЯРНЫЕ ПРОEКТЫ*/
-.popular-title {
-  font-size: 36px;
-  font-family: "GothamProRegular";
-  color: #545b54;
-  line-height: 0.583;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 3%;
-}
-.popular-project {
-  margin-top: 60px;
-}
-/*Projects*/
-.project {
-  padding-right: 2px !important;
-  padding-left: 2px !important;
-}
-.pop {
-  padding-left: 6%!important;
-}
-.slides {
-  width: 80%;
-  text-align: center;
-  margin-top: 15px;
-  border: 1px solid #e4e4e4;
-}
-.slides img {
-  width: 100%;
-}
-.caption {
-  border-top: 1px solid #e4e4e4;
-  margin-top: 5px;
-  background: white;
-}
-.pop-titles {
-  width: 100%;
-  height: 50px;
-}
-.cena {
-  font-size: 24px;
-  font-family: "GothamProRegular";
-  font-weight: bold;
-  color: #2d2d2b;
-  line-height: 1.25;
-}
-.title1 {
-  float: left;
-  width: 50%;
-  height: 100%;
-  font-size: 12px;
-  font-family: "GothamProBold";
-  color: #2d2d2b;
-  line-height: 1.25;
-}
-.title2 {
-  float: right;
-  background-color: #e6e5e5;
-  width: 50%;
-  height: 100%;
-  font-size: 12px;
-  font-family: "GothamProBold";
-  color: #2d2d2b;
-  line-height: 1.25;
-}
-.dom {
-  margin-top: 7%;
-  font-size: 16px;
-  font-family: "GothamProLight";
-  color: #31943c;
-  text-decoration: underline;
-  line-height: 1.313;
-  text-align: center;
-}
-.block-pc {
-  margin-top: 7%;
-  margin-bottom: 7%;
-}
-.pop-cap {
-  font-size: 16px;
-  font-family: "GothamProRegular";
-  color: #2d2d2b;
-  line-height: 1.313;
-  text-align: center;
-}
-.line {
-  text-decoration: line-through;
-}
-.after-popular {
-  border-top: 1px solid;
-  color: #31943c;
-  margin-bottom: 40px;
-  margin-top: 140px;
-}
 .carousel-indicators3 {
   margin-bottom: -100px !important;
 }
@@ -11301,7 +10541,6 @@ input[type="checkbox"]:checked + span {
   border: 2px solid #31943c !important;
   background-color: rgba(255, 255, 255, 0) !important;
 }
-/* CAROUSEL BEFORE FOOTER*/
 .article-main-title-text {
   text-align: center;
   margin-top: 50px;
@@ -11343,374 +10582,22 @@ input[type="checkbox"]:checked + span {
   border: 2px solid #31943c !important;
   background-color: rgba(255, 255, 255, 0) !important;
 }
-/*полезно знать */
-.articles-date-text {
-  font-size: 12px;
-  color: #1c1e1a;
-  line-height: 1.333;
-  margin-top: 20px;
-}
-.articles-title-text {
-  font-size: 16px;
-  font-family: "GothamProBold";
-  color: #31943c;
-  font-weight: bold;
-  line-height: 1;
-}
-.articles-title-text span {
-  border-bottom: 1px solid #cbe4ce;
-}
 .bottom-slider-wrap a {
   text-decoration: none;
-}
-.articles-title-text span:hover {
-  border-bottom: 0;
-}
-.articles-main-text {
-  font-size: 14px;
-  color: #1c1e1a;
 }
 hr.after-cat {
   margin-top: 150px;
   border-top: 1px solid #31943c;
   margin-bottom: 35px;
 }
-/*CAT*/
-/*ОСНОВНОЕ МЕНЮ*/
-.cat {
-  padding-left: 0px!important;
-  padding-right: 0px!important;
-}
-.cat-nav {
-  margin-top: 40px;
-  border-bottom: 3px solid #31943c;
-  border-top: none;
-}
-.cat-nav > li {
-  height: 54px;
-  width: 50%;
-  text-align: center;
-  margin-bottom: 0px;
-  background-color: #e6e5e5;
-}
-.cat-nav > li > a {
-  width: 100%;
-  height: 100%;
-  padding-top: 17px;
-  border: none!important;
-}
-.cat-nav > li > a {
-  font-size: 24px;
-  font-family: "GothamProMedium";
-  line-height: 0.625;
-  color: #31943c;
-  text-decoration: underline;
-}
-.cat-nav > li > a:hover {
-  background: white;
-}
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li.active > a:hover {
-  color: #151615;
-  text-decoration: none;
-}
-/* галерея и выборка */
-/*LEFT*/
-.left-col {
-  margin-top: 35px;
-  background-color: #e6e5e5;
-  height: 710px;
-  width: 27%;
-  padding-left: 2.2%;
-  padding-right: 2.2%;
-  font-size: 12px;
-  font-family: "GothamProRegular";
-  color: #2b2a29;
-  line-height: 1.25;
-}
-.left-col p {
-  font-size: 12px;
-  font-family: "GothamProBold";
-  color: #2b2a29;
-  font-weight: bold;
-  line-height: 1.25;
-  margin-bottom: 20px;
-}
-.left-title {
-  margin-top: 20px;
-  font-size: 18px;
-  font-family: "GothamProMedium";
-  color: #151615;
-  line-height: 0.833;
-  text-align: center;
-}
-.after-left-title {
-  margin-top: 20px;
-  border-top: 1px solid;
-  color: white;
-  margin-bottom: 25px;
-}
-.tech {
-  position: relative;
-  height: 125px;
-}
-.tech-popular,
-.tech-popular2,
-.tech-popular3 {
-  position: absolute;
-  font-size: 12px;
-  font-family: "GothamProRegular";
-  color: #2b2a29;
-  line-height: 1.25;
-}
-.tech-popular {
-  top: 30%;
-  left: 10%;
-}
-.tech-popular2 {
-  top: 56%;
-  left: 10%;
-}
-.tech-popular3 {
-  top: 83%;
-  left: 10%;
-}
-.plosh {
-  margin-top: 20px;
-  margin-bottom: 27px;
-}
-.plosch-put {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.left-check {
-  display: block;
-  position: relative;
-  width: 20px;
-  height: 20px;
-  margin-bottom: 5%;
-}
-label.left-check input[type="checkbox"] + span {
-  position: absolute;
-  left: -1px;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../images/sprite.png) -216px 0 no-repeat;
-  cursor: pointer;
-}
-label.left-check input[type="checkbox"]:checked + span {
-  background: url(../images/sprite.png) -240px 0 no-repeat;
-}
-.plosh input {
-  outline: none;
-  display: inline-block;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #cccccc;
-  border-radius: 3px;
-  background-color: #ffffff;
-  box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
-  width: 55px;
-  height: 30px;
-  margin-left: 2%;
-  margin-right: 3%;
-}
-div#st3 {
-  width: 91%;
-  margin-left: 10px;
-  margin-top: 27px;
-}
 div#st4 {
   width: 91%;
   margin-left: 10px;
   margin-top: 27px;
 }
-.noUi-connect {
-  background: #4f8330 !important;
-}
-.noUi-handle {
-  border-color: #4f8330 !important;
-}
-.noUi-background {
-  background: white!important;
-}
-.noUi-pips-horizontal {
-  padding-top: 3px!important;
-  font-size: 12px!important;
-  font-family: "GothamProLight" !important;
-  color: #2b2a29 !important;
-  line-height: 1.25!important;
-}
-.noUi-value-horizontal {
-  padding-top: 10px!important;
-}
-.noUi-marker-horizontal.noUi-marker {
-  width: 1px!important;
-  height: 10px!important;
-}
-.noUi-marker-large {
-  background: #4f8330 !important;
-}
-.kolvo {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 44px;
-  margin-bottom: 30px;
-}
-.cat-size {
-  width: 202px;
-  height: 36px;
-}
-.cat-drop-btn {
-  width: 100%;
-  font-size: 12px;
-  font-family: "Verdana";
-  color: #666666;
-  line-height: 1.833;
-  text-align: left;
-}
-.cat-drop {
-  width: 100%;
-}
-.cat-button-show {
-  width: 100%;
-  text-align: right;
-}
-.cat-button-green {
-  outline: none;
-  border: 1px solid;
-  border-radius: 3px;
-  background-color: #31943c;
-  width: 128px;
-  height: 39px;
-  font-family: "GothamProLight";
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.313;
-}
 .cat-button-green:hover {
   background-color: #5d5d5d;
 }
-.cat-caret {
-  margin-left: 57%!important;
-}
-.dop {
-  position: relative;
-  height: 125px;
-  margin-bottom: 30px;
-}
-/*RIGHT*/
-.cat-right {
-  margin-top: 35px;
-  width: 73%;
-  padding-left: 3%;
-  padding-right: 0%;
-  float: right;
-}
-.cat-gallery-row {
-  width: 100%;
-  margin-bottom: 25px;
-}
-.cat-gal-house {
-  border: 1px solid #e4e4e4;
-  width: 32.3%;
-  height: 350px;
-  display: inline-block;
-  margin-right: 1%;
-  position: relative;
-}
-.cat-gal-house img {
-  width: 100%;
-  height: 160px;
-}
-.cat-gal-house-last {
-  border: 1px solid #e4e4e4;
-  width: 32%;
-  height: 350px;
-  display: inline-block;
-  position: relative;
-}
-.cat-gal-house-last img {
-  width: 100%;
-  height: 160px;
-}
-.cat-propos {
-  position: absolute;
-  width: 45px!important;
-  height: 45px!important;
-  top: 0%;
-  left: 3%;
-}
-.cat-dom {
-  height: 56px;
-  font-size: 16px;
-  font-family: "GothamProRegular";
-  color: #31943c;
-  text-decoration: underline;
-  line-height: 1.313;
-  text-align: center;
-  padding-top: 15px;
-}
-.cat-sizes {
-  height: 57px;
-  position: relative;
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
-}
-.cat-sizes p {
-  position: absolute;
-  top: 37%;
-  left: 30%;
-  font-size: 16px;
-  font-family: "GothamProRegular";
-  color: #2d2d2b;
-  line-height: 1.313;
-  text-align: center;
-}
-p.cat-p {
-  position: absolute;
-  top: 37%;
-  left: 70%;
-  font-size: 16px;
-  font-family: "GothamProRegular";
-  color: #2d2d2b;
-  line-height: 1.313;
-  text-align: center;
-}
-.cat-sizes p:before {
-  content: "";
-  position: absolute;
-  top: -10%;
-  left: -75%;
-  background: url(../images/catm.png) no-repeat;
-  width: 25px;
-  height: 25px;
-}
-.cat-sizes p.cat-p:before {
-  content: "";
-  position: absolute;
-  top: -10%;
-  left: -60%;
-  width: 25px;
-  height: 25px;
-  background: url(../images/catm2.png) no-repeat;
-}
-.cat-price {
-  height: 73px;
-  font-size: 30px;
-  font-family: "GothamProMedium";
-  color: #2d2d2b;
-  line-height: 1;
-  text-align: center;
-  padding-top: 23px;
-}
-/* footer */
-/*CALLBACK*/
 .call {
   box-shadow: 0 4px 50px 2px white;
 }

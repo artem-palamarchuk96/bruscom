@@ -20,6 +20,47 @@
 	margin-left: 14px;
 }
 
+.footer-number {
+  font-size: 16px;
+  font-family: "GothamProRegular";
+  color: rgb(53, 150, 64);
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: center;
+}
+
+.footer-tel-number {
+	font-size: 24px;
+	color: #474747;
+}
+
+.footer-content-text {
+	font-size: 11px;
+	color: rgb(84, 91, 84);
+	line-height: 1.2;
+	text-align: left;
+	margin-left: 20%;
+}
+
+.footer-address-link {
+  font-size: 12px;
+  font-family: "GothamProLight";
+  color: rgb(53, 150, 64);
+  line-height: 1.333;
+  text-align: center;
+}
+
+.footer-address-link:hover,.footer-address-link:focus{
+	color: rgb(53, 150, 64); 
+}
+
+.footer-numbers{
+	width: 200px;
+	height: 100px;
+	margin-left: 75px;
+	margin-top: -7%;
+}
+
 .footer-img-logo {
 	margin-left: -15px;
 	float: left;
