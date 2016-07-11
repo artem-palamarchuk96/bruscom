@@ -9,10 +9,15 @@ var autoprefixer = require('gulp-autoprefixer');
 var rimraf = require('rimraf');
 var sequence = require('gulp-sequence');
 var modernizr = require('gulp-modernizr');
+var htmlmin = require('gulp-htmlmin');
 
 gulp.task('html', function() {
 	return gulp.src('src/*.html')
 			.pipe(rigger())
+			.pipe(htmlmin({
+				collapseInlineTagWhitespace: true,
+				collapseWhitespace: true
+			}))
 			.pipe(gulp.dest('dist'))
 			.pipe(browsersync.reload({stream: true}))
 })
