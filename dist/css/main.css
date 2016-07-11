@@ -7398,6 +7398,11 @@ button.close {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/Glyphicons/glyphicons-halflings-regular.eot');
+  src: url('../fonts/Glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/Glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/Glyphicons/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
 * {
   margin: 0;
   padding: 0;
@@ -9726,7 +9731,6 @@ input[type="checkbox"]:checked + span {
   border-radius: 3px;
 }
 .ask-caret {
-  margin-left: 38% !important;
   position: absolute;
   top: 50%;
   left: 94%;

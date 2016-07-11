@@ -1462,7 +1462,6 @@ input[type="checkbox"]:checked + span {
 	border-radius: 3px;
 }
 .ask-caret {
-	margin-left: 38% !important;
 	position: absolute;
 	top: 50%;
 	left: 94%;
