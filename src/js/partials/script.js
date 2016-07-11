@@ -108,6 +108,39 @@ $(".pips-range").noUiSlider_pips({
     density: 30,
 });
 
+
+
+$('.more').click(function(){
+    $(this).css({'display':'none'}).parent('.form-line').next().css({'display':'block'});
+    return false;
+    
+});
+
+/*имя файла*/
+$('#upload').change(function()
+{
+
+    $('#upload').each(function() {
+        var name = this.value;
+        reWin = /.*\\(.*)/;
+        var fileTitle = name.replace(reWin, "$1");
+        reUnix = /.*\/(.*)/;
+        fileTitle = fileTitle.replace(reUnix, "$1");
+        $('#fileformlabel').html(fileTitle);
+    });
+
+});
+
+$('minfull a').click(function(){
+    $(this).addClass('active');
+    $('minfull a').addClass('default');
+    return false;
+});
+
+$('.minfull a').click(function() {
+    $('.minfull a').removeClass("min-active");
+});
+
 });
 
  ymaps.ready(init);

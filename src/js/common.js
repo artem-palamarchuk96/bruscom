@@ -7,4 +7,3 @@
 
 //= partials/modernizr.js
 //= partials/script.js
-//= partials/script-2.js
