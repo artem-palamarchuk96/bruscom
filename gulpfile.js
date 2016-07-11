@@ -45,8 +45,22 @@ gulp.task('fonts', function() {
 			.pipe(browsersync.reload({stream: true}))
 })
 
+gulp.task('modernizr', function() {
+  	return gulp.src('src/js/*.js')
+    .pipe(modernizr({
+    	options: [
+    		'html5shiv',
+    		'html5printshiv',
+    		'addTest',
+    		'testProp',
+    		'testStyles'
+    	]
+    }))
+    .pipe(gulp.dest("src/js/partials"))
+});
+
 gulp.task('watch', function(cb) {
-	sequence('html', 'css', 'js', ['images', 'fonts'], cb);
+	sequence('html', 'css', 'modernizr', 'js', ['images', 'fonts'], cb);
 	gulp.watch('src/**/*.html', ['html']);
 	gulp.watch('src/**/*.css', ['css']);
 	gulp.watch('src/**/*.js', ['js']);
