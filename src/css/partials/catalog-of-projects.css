@@ -1,0 +1,142 @@
+/* каталог проектов */
+.main-nav {
+	border-bottom: 3px solid #31943c;
+}
+
+.main-nav li {
+	width: 16%;
+	border-bottom: 3px solid #31943c;
+	float: right;
+	margin-bottom: -3px;
+}
+
+.main-nav li.active {
+	border: 3px solid #31943c;
+	border-bottom: none;
+}
+
+.main-nav > li > a {
+	font-size: 15px;
+	line-height: 1.467;
+	text-decoration: none;
+	padding: 22px 0px 25px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.main-nav > li.active > a > span {
+	border-bottom: 0; 
+	color: rgb(36, 35, 29);
+}
+
+.main-nav > li > a > span {
+	color: #3f9b49;
+	border-bottom: 1px solid #cbe4ce; 
+}
+
+.main-nav-content {
+	border: 3px solid #31943c;
+	border-top: none;
+	padding-bottom: 75px;
+}
+
+.percent {
+	position: absolute;
+	top: 0;
+	left: 13px;
+}
+
+.cat-line {
+	margin: 0 3.5%;
+}
+
+.tab-item {
+	display: inline-block;
+	width: 31%;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 40px;
+	float: left;
+	border: 1px solid #e7e7e7;
+}
+
+.tab-item:nth-child(2) {
+	margin-left: 3.5%;
+	margin-right: 3.5%;;
+}
+
+.last-tab-item {
+	background: #eff9e2;
+}
+
+.last-tab-item p {
+  padding: 10% 0px;
+}
+
+.tab-item a {
+	display: inline-block;
+	position: relative;
+	color: #858585;
+	text-decoration: none;
+	width: 100%;
+}
+
+.tab-item > a img:first-child {
+	width: 100%;
+	margin-bottom: 13px;
+}
+
+/* item text */
+.tab-item p {
+	color: #575755;
+	font-size: 16px;
+	font-family: "GothamProMedium";
+}
+
+.tab-item span {
+	color: #3f9b49;
+	border-bottom: 1px solid #cbe4ce; 
+}
+
+.button-green-add {
+	border: 0;
+	border-radius: 3px;
+	background-color: rgb(49, 148, 60);
+	width: 128px;
+	height: 32px;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	line-height: 1.313;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.button-green-add:hover {
+	background: #5d5d5d;
+}
+
+.in-catalog-text {
+	font-size: 18px;
+	font-family: "GothamProMedium";
+	color: rgb(49, 148, 60);
+	line-height: 1.167;
+	text-align: center;
+	position: absolute;
+	left: 32%;
+	bottom: -15px;
+	background: #fff;
+	padding: 0 3%;
+}
+
+.in-catalog-text:hover {
+	text-decoration: none;
+	color: rgb(49, 148, 60);
+}
+
+.in-catalog-text span {
+	border-bottom: 1px solid #cbe4ce; 
+}
+
+.in-catalog-text span:hover {
+	border-bottom: 0;
+}

@@ -11,7 +11,7 @@
 @import (less) url(partials/content.css);
 @import (less) url(partials/table.css);
 @import (less) url(partials/photogallery.css);
-
+@import (less) url(partials/catalog-of-projects.css);
 
 
 @import (less) url(partials/footer.css);

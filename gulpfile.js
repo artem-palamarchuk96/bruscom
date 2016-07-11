@@ -32,10 +32,10 @@ gulp.task('js', function() {
 			.pipe(browsersync.reload({stream: true}))
 })
 
-gulp.task('img', function() {
-	return gulp.src('src/img/**/*.*')
+gulp.task('images', function() {
+	return gulp.src('src/images/**/*.*')
 			.pipe(imagemin())
-			.pipe(gulp.dest('dist/img'))
+			.pipe(gulp.dest('dist/images'))
 			.pipe(browsersync.reload({stream: true}))
 })
 
@@ -46,11 +46,11 @@ gulp.task('fonts', function() {
 })
 
 gulp.task('watch', function(cb) {
-	sequence('html', 'css', 'js', ['img', 'fonts'], cb);
+	sequence('html', 'css', 'js', ['images', 'fonts'], cb);
 	gulp.watch('src/**/*.html', ['html']);
 	gulp.watch('src/**/*.less', ['css']);
 	gulp.watch('src/**/*.js', ['js']);
-	gulp.watch('src/img/**/*.*', ['img']);
+	gulp.watch('src/images/**/*.*', ['images']);
 	gulp.watch('src/fonts/**/*.*', ['fonts']);
 })
 
